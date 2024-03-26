@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{D46152BC-68E6-4A0E-BB1C-4D2DD5C4AC7D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shaders.Shared", "Shaders\Shaders.Shared.shproj", "{3A0259DE-7E6D-4CFA-A568-764C073A8337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaders.Android", "Shaders.Android\Shaders.Android.csproj", "{BCA8B308-885F-436C-837D-029AAD7939FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaders.WindowsDX", "Shaders.WindowsDX\Shaders.WindowsDX.csproj", "{B0E3155D-C81A-466F-932E-45FE3AA788F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaders.DesktopGL", "Shaders.DesktopGL\Shaders.DesktopGL.csproj", "{4CE0893C-C866-491C-8E76-597F43D37BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaders.BlazorGL", "Shaders.BlazorGL\Shaders.BlazorGL.csproj", "{507028E6-9E66-49AA-82BC-CF3D95CA318D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA8B308-885F-436C-837D-029AAD7939FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA8B308-885F-436C-837D-029AAD7939FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA8B308-885F-436C-837D-029AAD7939FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BCA8B308-885F-436C-837D-029AAD7939FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA8B308-885F-436C-837D-029AAD7939FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA8B308-885F-436C-837D-029AAD7939FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B0E3155D-C81A-466F-932E-45FE3AA788F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E3155D-C81A-466F-932E-45FE3AA788F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E3155D-C81A-466F-932E-45FE3AA788F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E3155D-C81A-466F-932E-45FE3AA788F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE0893C-C866-491C-8E76-597F43D37BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE0893C-C866-491C-8E76-597F43D37BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE0893C-C866-491C-8E76-597F43D37BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE0893C-C866-491C-8E76-597F43D37BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{507028E6-9E66-49AA-82BC-CF3D95CA318D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507028E6-9E66-49AA-82BC-CF3D95CA318D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507028E6-9E66-49AA-82BC-CF3D95CA318D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507028E6-9E66-49AA-82BC-CF3D95CA318D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A0259DE-7E6D-4CFA-A568-764C073A8337} = {D46152BC-68E6-4A0E-BB1C-4D2DD5C4AC7D}
+		{BCA8B308-885F-436C-837D-029AAD7939FC} = {D46152BC-68E6-4A0E-BB1C-4D2DD5C4AC7D}
+		{B0E3155D-C81A-466F-932E-45FE3AA788F1} = {D46152BC-68E6-4A0E-BB1C-4D2DD5C4AC7D}
+		{4CE0893C-C866-491C-8E76-597F43D37BEA} = {D46152BC-68E6-4A0E-BB1C-4D2DD5C4AC7D}
+		{507028E6-9E66-49AA-82BC-CF3D95CA318D} = {D46152BC-68E6-4A0E-BB1C-4D2DD5C4AC7D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92A225C3-04E6-4DF0-97B5-05CD31EDDF04}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shaders\Shaders.Shared.projitems*{3a0259de-7e6d-4cfa-a568-764c073a8337}*SharedItemsImports = 13
+		Shaders\Shaders.Shared.projitems*{4ce0893c-c866-491c-8e76-597f43d37bea}*SharedItemsImports = 5
+		Shaders\Shaders.Shared.projitems*{507028e6-9e66-49aa-82bc-cf3d95ca318d}*SharedItemsImports = 5
+		Shaders\Shaders.Shared.projitems*{b0e3155d-c81a-466f-932e-45fe3aa788f1}*SharedItemsImports = 5
+		Shaders\Shaders.Shared.projitems*{bca8b308-885f-436c-837d-029aad7939fc}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
