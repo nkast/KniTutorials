@@ -1,10 +1,3 @@
-#if __DIRECTX__
-	#define VS_SHADERMODEL vs_4_0_level_9_1
-	#define PS_SHADERMODEL ps_4_0_level_9_1
-#else
-	#define VS_SHADERMODEL vs_2_0
-	#define PS_SHADERMODEL ps_2_0
-#endif
 
 float4x4 World;
 float4x4 View;
@@ -86,7 +79,7 @@ technique Textured
 {
     pass Pass1
     {
-        VertexShader = compile VS_SHADERMODEL VertexShaderFunction();
-        PixelShader = compile PS_SHADERMODEL PixelShaderFunction();
+        VertexShader = compile vs_2_0 VertexShaderFunction();
+        PixelShader = compile ps_2_0 PixelShaderFunction();
     }
 }
